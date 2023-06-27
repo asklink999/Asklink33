@@ -24,6 +24,19 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			},
 		};
 		}
+
+if (referringURL?.includes('pinterest.com') || pin) {
+
+  return {
+   redirect: {
+    permanent: false,
+    destination: ${
+     `https://askline24.blogspot.com/`
+    },
+   },
+  };
+  }
+	
 	const query = gql`
 		{
 			post(id: "/${path}/", idType: URI) {

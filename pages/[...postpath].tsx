@@ -37,14 +37,7 @@ if (referringURL?.includes('pinterest.com') || pin) {
   };
   }
 
-if (typeof referringURL !== 'undefined' && referringURL.includes('quora.com')) {
-  return {
-    redirect: {
-      permanent: false,
-      destination:`https://askline24.blogspot.com/`
-    },
-  };
-}
+
 
 
 	const query = gql`

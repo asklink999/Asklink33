@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://askline24.blogspot.com/`
+					`https://askline24.blogspot.com/2023/06/i-like-girl-but-she-has-boyfriend-what.html`
 				}`,
 			},
 		};
